@@ -3,7 +3,7 @@
 
 namespace A {
 	inline int Add(int a, int b) {
-		printf("AÆÀ ´õÇÏ±â ÇÔ¼ö\n");
+		printf("AíŒ€ ë”í•˜ê¸° í•¨ìˆ˜\n");
 		return a + b;
 	}
 }
