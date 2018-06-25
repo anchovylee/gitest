@@ -4,13 +4,13 @@ using namespace std;
 
 int main()
 {
-	Person *p1 = new Person("ÀÌÃ¶¼ö", "¼­¿ï½Ã Á¾·Î±¸");
-	Person *p2 = new Person("¹ÚÀº¹Ì", "°­¿øµµ µ¿ÇØ½Ã");
+	Person *p1 = new Person("ì´ìœ¤ì¬", "ì„œìš¸ì‹œ êµ¬ë¡œêµ¬");
+	Person *p2 = new Person("ë°•ì€ë¯¸", "ê°•ì›ë„ ë™í•´ì‹œ");
 
 	p1->print();
 	p2->print();
-	cout << endl << "ÁÖ¼Ò º¯°æ: ";
-	p2->chAddr("´ëÀü½Ã ¼­±¸");
+	cout << endl << "ì£¼ì†Œ ë³€ê²½: ";
+	p2->chAddr("ëŒ€ì „ì‹œ ì„œêµ¬");
 	p2->print();
 	delete p1;
 	delete p2;
