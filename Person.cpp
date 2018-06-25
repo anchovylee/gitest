@@ -9,19 +9,19 @@ Person::Person(const char *name, const char *addr)
 	strcpy(this->name, name);
 	this->addr = new char[strlen(addr) + 1];
 	strcpy(this->addr, addr);
-	cout << "Person °´Ã¤ »ı¼ºÇÔ(" << name << ")" << endl;
+	cout << "Person ê°ì±„ ìƒì„±(" << name << ")" << endl;
 }
 
 Person::~Person()
 {
-	cout << "Person °´Ã¼ Á¦°ÅÇÔ(" << name << ")" << endl;
+	cout << "Person ê°ì²´ ì œê±°(" << name << ")" << endl;
 	delete[]name;
 	delete[]addr;
 }
 
 void Person::print() const
 {
-	cout << addr << "¿¡ »ç´Â" << name << "ÀÔ´Ï´Ù." << endl;
+	cout << addr << "ì— ì‚¬ëŠ”" << name << "ì…ë‹ˆë‹¤." << endl;
 }
 
 void Person::chAddr(const char *nAddr)
