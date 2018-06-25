@@ -7,11 +7,11 @@ int main()
     char*	pt;
     
     cout << str << endl;
-    pt = str;			// pt°¡ ¹è¿­ strÀ» °¡¸®Å´
-    while (*pt) {		// ¹®ÀÚ¿­ÀÇ ³¡ÀÌ ¾Æ´Ï¸é ¹Ýº¹
-        if (*pt >= 'a' && *pt <= 'z')	// ¼Ò¹®ÀÚÀÎ °æ¿ì
-            *pt = *pt - 'a' + 'A';		// ´ë¹®ÀÚ·Î ¹Ù²Þ
-        pt++;			// ´ÙÀ½ ¹®ÀÚ·Î Æ÷ÀÎÅÍ ÀÌµ¿
+    pt = str;			// pt¿ ¿¿ str¿ ¿¿¿
+    while (*pt) {		// ¹¿¿¿¿ ¿¿ ¿¿¿ ¿¿
+        if (*pt >= 'a' && *pt <= 'z')	// ¿¿¿¿ ¿¿
+            *pt = *pt - 'a' + 'A';		// ¿¿¿¿ ¿¿
+        pt++;			// ¿¿ ¿¿¿ ¿¿¿ ¿¿
     }
     cout << str << endl;
     return 0;
